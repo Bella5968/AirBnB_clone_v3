@@ -85,6 +85,7 @@ class FileStorage:
 
         return None
 
+    """coded by Omar and Bella"""
     def count(self, cls=None):
         """
         count the number of objects in storage
