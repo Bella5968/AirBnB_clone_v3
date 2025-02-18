@@ -22,6 +22,8 @@ def page_not_found(error):
     return make_response(jsonify({"error": "Not found"}), 404)
 
 
+"""code to run"""
+
 if __name__ == "__main__":
     """Main function"""
     host = environ.get('HBNB_API_HOST')
